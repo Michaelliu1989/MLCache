@@ -23,3 +23,13 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+# SnappyDB
+-keep class sun.misc.**
+-keep class sun.nio.**
+-keep class java.beans.**
+-keep class sun.nio.ch.**
+-keep class com.snappydb.**
+-keep class com.snappydb.internal.DBImpl { *; }
+-keep class com.esotericsoftware.kryo.** { *; }
+-dontwarn com.esotericsoftware.kryo.**
+-dontwarn org.objenesis.instantiator.**
