@@ -78,7 +78,7 @@ CacheManager.instance(Constants.userCacheOptions).clear();
 ```
 
 ## Depend
-Snappydb is download from:
+Snappydb is download from:[https://github.com/nhachicha/SnappyDB](https://github.com/nhachicha/SnappyDB)
 
 License
 -------
